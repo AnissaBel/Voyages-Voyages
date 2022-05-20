@@ -59,7 +59,7 @@ p{
 	color: #313131;
 	font-size: 3rem;
 	position: absolute;
-	font-family:spartan;
+	font-family:'Poppins', sans-serif;
 	width: 3rem;
 	height: 3rem;
 	padding-top: 0.25rem;
@@ -113,7 +113,7 @@ nav a{
 
 nav a:hover{
 	border-bottom-color: rgb(49, 49, 49);
-    transition: 0.70s;
+    transition: ease 0.70s;
 }
 
 /*---------SLIDE NOUVELLE ZELANDE------ */
