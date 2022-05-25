@@ -262,7 +262,11 @@ h3 {
     height:40%;
     object-fit: cover;
     margin:1rem;
-    
+}
+
+.gallery__items:hover {
+    cursor:pointer;
+    scale:1.2;
 }
 
 .gallery__items img {
