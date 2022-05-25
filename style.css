@@ -250,6 +250,10 @@ h3 {
     height:90%;
     background-color: aqua;
     display:flex;
+    flex-wrap:wrap;
+    margin:1rem;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -257,10 +261,8 @@ h3 {
     width:40%;
     height:40%;
     object-fit: cover;
-    cursor:pointer;
-    display:flex;
-    flex-wrap:wrap;
     margin:1rem;
+    
 }
 
 .gallery__items img {
@@ -272,7 +274,7 @@ h3 {
     height:90%;
 }
 
-.picture__container__big IMG {
+.picture__container__big img {
     width:100%;
     object-fit: cover;
     
