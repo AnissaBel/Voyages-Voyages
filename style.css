@@ -310,21 +310,16 @@ h3 {
 }
 
 .source {
-    width:2%;
-    height: 100%;
-    background-color: aquamarine;
-}
-
-.source p {
-    /* position: absolute;
-    bottom: 7rem;
-    left: -2.5rem; */
-    display: inline-block;
-    width:100%;
-    height:100%;
-    color:#1f1f1f;
-    -ms-transform: rotate(270deg); /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    width: 20rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 10rem;
+    left: -6.5rem;
+    font-size: 1rem;
+    color: rgb(22, 22, 22);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 
 }
+
