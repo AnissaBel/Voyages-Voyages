@@ -142,7 +142,7 @@ ul a:hover{
     width:100%;
     height:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
    
     
@@ -164,7 +164,7 @@ ul a:hover{
 
 .h2__container {
     width:50%;
-    padding:0.5rem;
+    padding: 0.5rem 0.5rem 3rem 0.5rem;
     /* background-color: rgb(255, 255, 255); */
     z-index:3;
 
@@ -231,20 +231,17 @@ h3 {
 .text__container {
     display:flex;
     flex-direction:column;
-    width:40%;
-    padding:1rem;
+    width:30%;
+    height:80%;
     font-size: 0.5rem;
-    position:absolute;
-    right:-4%;
-    bottom:25%;
-    margin-left:2rem;
-    
-
-   
+    z-index:3;
+    position: absolute;
+    right:4rem;
+    top:8rem;
 }
 
 .text__box {
-    width:60%;
+    width:100%;
     height:50%;
     text-align: left;
     padding:1rem;
