@@ -427,8 +427,7 @@ h3 {
 
     .gallery__container {
         width: 100%;
-        height: 92%;
-        margin:0;
+        height: 100%;
         /* background-color: aqua; */
        
     }
@@ -437,16 +436,11 @@ h3 {
         width: 100%;
         height: 20%;
         overflow: hidden;
-        /* margin: 1rem;  */
-    }
-
-    .gallery__items a {
-        width: 100%;
-        height:100%;
-        margin:0;
+        margin: 1rem; 
     }
 
 
+    }
 }
 
 /* MEDIA QUERIES  */
