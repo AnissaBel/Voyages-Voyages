@@ -134,6 +134,17 @@ nav a{
 	
 }
 
+.menu,
+.retour {
+    width:100px;
+    height:50px;
+    /* background-color: aqua; */
+    color: #1f1f1f;
+    font-size: 1.5rem;
+    text-align: center;
+    display:none;
+}
+
 ul a:hover{
 	border-bottom-color: rgb(49, 49, 49);
     transition: ease 0.70s;
@@ -323,6 +334,89 @@ h3 {
 
 @media screen and (max-width:930px){
 
+    .menu__container{
+        width:100%;
+        height:100%;
+        font-size: 16px;
+        background-color: rgb(235, 235, 235);
+        font-weight: bold;
+        color: rgb(19, 19, 19);
+        padding: 1.5rem 1rem 1rem 1rem;
+        display:flex;
+        flex-direction: column;;
+        justify-content: center;
+        z-index:5;
+
+    }
+
+    .menu__container ul {
+        width:90%;
+        height:90%;
+        font-size: 16px;
+        margin:auto;
+        background-color: rgb(237, 237, 237);
+        font-weight: 400;
+        color: rgb(19, 19, 19);
+        font-size: 2rem;;
+        padding: 1.5rem 1rem 1rem 1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index:5;
+        list-style-type: none;
+        text-align: center;
+
+    }
+
+    .menu__container li {
+        padding:1rem 0.5 0.5 0.5;
+
+
+    }
+
+    .menu__container li {
+        padding:0.5rem 0.5rem 1rem 0.5rem;
+        color: rgb(49, 49, 49);
+	    border-bottom: 1px solid;
+
+    }
+
+    .menu__container a {
+        text-decoration: none;
+        color:#1f1f1f;
+        font-size: 2rem;;
+    }
+
+    .menu__container a:hover {
+        text-decoration: none;
+        color:#e7e7e7;
+        background-color: #1f1f1f;
+        font-size: 2rem;
+    }
+    
+    nav ul {
+        list-style:none;
+        display:none;
+    }
+    
+   
+
+    .logo {
+        display:none;
+    }
+
+    .menu,
+    .retour {
+        display:block;
+    }
+    
+    ul a:hover{
+        border-bottom-color: rgb(49, 49, 49);
+        transition: ease 0.70s;
+    }
+
+
+
     .next-link,
     .prev-link {
         display: block;
@@ -481,7 +575,7 @@ h3 {
         margin: 1rem 0.5rem 1rem 0.5rem;
     }
         
-    }
+    
 
     .number__big {
         font-size: 6rem;
