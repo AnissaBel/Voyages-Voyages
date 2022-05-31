@@ -427,7 +427,7 @@ h3 {
 
     .gallery__container {
         width: 100%;
-        height: 92%;
+        /* height: 92%; */
         margin:0;
         /* background-color: aqua; */
        
@@ -441,9 +441,59 @@ h3 {
     }
 
     .gallery__items a {
+        
+        background-color: red;
+    }
+
+    .gallery__items a img {
         width: 100%;
-        height:100%;
-        margin:0;
+        
+    }
+
+    .slide__container__big {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+
+
+    .picture__container__big {
+        width: 41rem;
+        height: 23rem;
+        margin-bottom: 0.9rem;
+        transform: rotate(90deg);
+    }
+
+    .source__big {
+        width: 17rem;
+        height: 22.5rem;
+        position: absolute;
+        top: 3.2rem;
+        left: 44rem;
+        font-size: 1rem;
+        color: rgb(22, 22, 22);
+        -ms-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        
+    }
+
+    .number__big {
+        font-size: 6rem;
+        font-weight: 400;
+        line-height: 1;
+        padding: 1rem 0rem 0.5rem 1rem;
+        text-decoration: none;
+        color: rgb(49, 49, 49);
+        border-bottom: 1px solid black;
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 30;
+        transform: rotate(90deg);
     }
 
 
