@@ -1,6 +1,11 @@
 :root{
 	counter-reset: item;
+    --main-bg-color: #fefefe;
+    --button-color: #dbdbdb;
+    --font-color:#373737;
+
 }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -33,7 +38,7 @@ p{
 
 .slide{
 	font-size: 8rem;
-	color: rgb(255, 255, 255);
+	color: var(--font-color);
 	/* display: grid; */
 	place-items: center;
 	min-height: 97.9vh;
@@ -48,19 +53,19 @@ p{
 	text-shadow: -1px -1px 1px black;
 } */
 
-.slide:nth-child(odd){
+/* .slide:nth-child(odd){
 	background: rgb(255, 255, 255);
 }
 
 .slide:nth-child(even){
 	background: rgb(255, 255, 255);
-}
+} */
 
 .next-link,
 .prev-link{
 	display: block;
 	text-decoration: none;
-	color: #313131;
+	color: var(--font-color);
 	font-size: 3rem;
 	position: absolute;
     top:4rem;
@@ -91,6 +96,7 @@ p{
     top: 10px;
     left: 25px;
     font-weight: 500;
+    color: var(--font-color);
 }
 
 .logo:hover {
@@ -107,9 +113,9 @@ nav{
 	position: fixed;
 	top: 0rem;
 	left: 0rem; 
-	background-color: rgba(255, 255, 255);
+	background-color: var(--main-bg-color);
 	font-weight: bold;
-	color: rgb(255, 255, 255);
+	color: var(--font-color);
 	padding: 1.5rem 1rem 1rem 1rem;
     display:flex;
     justify-content: center;
@@ -130,7 +136,7 @@ nav a{
     font-weight: 500;
     padding:1rem 0.5rem 0.5rem 0.5rem;
 	text-decoration: none;
-	color: rgb(49, 49, 49);
+	color: var(--font-color);
 	border-bottom: 1px solid transparent;
 	
 }
@@ -140,14 +146,14 @@ nav a{
     width:100px;
     height:50px;
     /* background-color: aqua; */
-    color: #1f1f1f;
+    color: var(--font-color);
     font-size: 1.5rem;
     text-align: center;
     display:none;
 }
 
 ul a:hover{
-	border-bottom-color: rgb(49, 49, 49);
+	border-bottom-color:var(--font-color);
     transition: ease 0.70s;
 }
 
@@ -169,8 +175,8 @@ ul a:hover{
     line-height:1;
     padding:1rem 0rem 0.5rem 4rem;
 	text-decoration: none;
-	color: rgb(49, 49, 49);
-	border-bottom: 1px solid black;
+	color: var(--font-color);
+	border-bottom: 1px solid var(--font-color);
     position: absolute;
     bottom:2rem;
     right:1rem;
@@ -190,7 +196,7 @@ h2 {
     font-size:800%;
     font-weight: 500;
     line-height:1;
-	color: rgb(49, 49, 49);
+	color: var(--font-color);
     z-index:30;
    
     
@@ -198,7 +204,7 @@ h2 {
 
 h3 {
     font-size: 16px;
-    color: rgb(32, 32, 32);
+    color: var(--font-color);
     margin:1rem 0rem 1rem 0rem;
 }
 
@@ -220,11 +226,11 @@ h3 {
 .button {
     width:200px;
     height:60px;
-    background: linear-gradient(to left, #2f2f2f 50%, #dbdbdb 50%) right;
+    background: linear-gradient(to left, var(--font-color)50%, var(--button-color) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
     border: none;
-    color: rgb(224, 224, 224);
+    color: var(--main-bg-color);
     padding: 20px 15px;
     text-align: center;
     text-decoration: none;
@@ -239,7 +245,7 @@ h3 {
 
 .button:hover {
     background-position: left;
-    color: #1f1f1f;
+    color: var(--font-color);
     
 }
 
@@ -266,7 +272,7 @@ h3 {
 .text__box p {
     font-size: 0.8rem;
     text-align: start;
-    color:#2f2f2f;
+    color:var(--font-color);
     line-height: 1.3rem;
 }
 
@@ -322,9 +328,9 @@ h3 {
     height: 2rem;
     position: absolute;
     bottom: 10rem;
-    left: -7.5rem;
+    left: -6.5rem;
     font-size: 1rem;
-    color: rgb(22, 22, 22);
+    color: var(--font-color);
     -ms-transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
@@ -336,7 +342,6 @@ h3 {
 @media screen and (max-width:930px){
 
     body{
-        
         overflow: auto;
         height: 100vh;
     }
@@ -345,9 +350,9 @@ h3 {
         width:100%;
         height:100vh;
         font-size: 16px;
-        background-color: rgb(235, 235, 235);
+        background-color: var(--main-bg-color);
         font-weight: bold;
-        color: rgb(19, 19, 19);
+        color: var(--font-color);
         padding: 1.5rem 1rem 1rem 1rem;
         display:flex;
         flex-direction: column;;
@@ -361,9 +366,9 @@ h3 {
         height:90%;
         font-size: 16px;
         margin:auto;
-        background-color: rgb(237, 237, 237);
+        background-color: var(--main-bg-color);
         font-weight: 400;
-        color: rgb(19, 19, 19);
+        color: var(--font-color);
         font-size: 2rem;;
         padding: 1.5rem 1rem 1rem 1rem;
         display:flex;
@@ -383,21 +388,21 @@ h3 {
 
     .menu__container li {
         padding:0.5rem 0.5rem 1rem 0.5rem;
-        color: rgb(49, 49, 49);
+        color: var(--font-color);
 	    border-bottom: 1px solid;
 
     }
 
     .menu__container a {
         text-decoration: none;
-        color:#1f1f1f;
+        color:var(--font-color);
         font-size: 2rem;;
     }
 
     .menu__container a:hover {
         text-decoration: none;
-        color:#e7e7e7;
-        background-color: #1f1f1f;
+        color:var(--main-bg-color);
+        background-color: var(--font-color);
         font-size: 2rem;
     }
     
@@ -418,7 +423,7 @@ h3 {
     }
     
     ul a:hover{
-        border-bottom-color: rgb(49, 49, 49);
+        border-bottom-color: var(--font-color);
         transition: ease 0.70s;
     }
 
@@ -428,7 +433,7 @@ h3 {
     .prev-link {
         display: block;
         text-decoration: none;
-        color: #313131;
+        color: var(--font-color);
         font-size: 3rem;
         position: absolute;
         top: 0rem;
@@ -486,7 +491,7 @@ h3 {
         font-weight: 500;
         padding:1rem 0 0 0;
         line-height: 1;
-        color: rgb(49, 49, 49);
+        color: var(--font-color);
         z-index: 30;
     }
 
@@ -496,8 +501,8 @@ h3 {
         line-height:1;
         padding:1rem 0rem 0.5rem 4rem;
         text-decoration: none;
-        color: rgb(49, 49, 49);
-        border-bottom: 1px solid black;
+        color: var(--font-color);
+        border-bottom: 1px solid var(--font-color);
         position: absolute;
         bottom:2rem;
         right:1rem;
@@ -507,11 +512,11 @@ h3 {
     .button {
         width:150px;
         height:60px;
-        background: linear-gradient(to left, #2f2f2f 50%, #dbdbdb 50%) right;
+        background: linear-gradient(to left, var(--font-color) 50%, var(--button-color) 50%) right;
         background-size: 200%;
         transition: .5s ease-out;
         border: none;
-        color: rgb(224, 224, 224);
+        color: var(--main-bg-color);
         padding: 20px 15px;
         text-align: center;
         text-decoration: none;
@@ -574,7 +579,7 @@ h3 {
         position: unset;
         /* background-color: aqua; */
         font-size: 1rem;
-        color: rgb(22, 22, 22);
+        color: var(--font-color);
         -ms-transform: rotate(270deg);
         -webkit-transform: rotate(270deg);
         transform: none;
@@ -590,8 +595,8 @@ h3 {
         line-height: 1;
         padding: 1rem 0rem 0.5rem 1rem;
         text-decoration: none;
-        color: rgb(49, 49, 49);
-        border-bottom: 1px solid black;
+        color: var(--font-color);
+        border-bottom: 1px solid var(--font-color);
         position: absolute;
         bottom: 5rem;
         right: 0rem;
