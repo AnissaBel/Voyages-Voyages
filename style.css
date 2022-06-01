@@ -69,7 +69,7 @@ p{
 }
 
 .prev-link{
-	left: 2rem;
+	left: 1.5rem;
 } 
 
 
@@ -197,6 +197,7 @@ h3 {
 
 .picture__container {
     display:flex;
+    flex-direction: column;
     width:60%;
     height:80%;
     object-fit: cover;
@@ -321,6 +322,14 @@ h3 {
     -ms-transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
+
+}
+
+.source__index {
+    text-align: right;
+    font-size: 1rem;
+    color: var(--font-color);
+    
 
 }
 
