@@ -129,8 +129,7 @@ nav a{
 	
 }
 
-.menu,
-.retour {
+.menu {
     width:100px;
     height:50px;
     /* background-color: aqua; */
@@ -341,7 +340,7 @@ h3 {
         background-color: var(--main-bg-color);
         font-weight: bold;
         color: var(--font-color);
-        padding: 1.5rem 1rem 1rem 1rem;
+        padding: 1.5rem 0.6rem 1rem 0.6rem;
         display:flex;
         flex-direction: column;;
         justify-content: center;
@@ -368,11 +367,6 @@ h3 {
 
     }
 
-    .menu__container li {
-        padding:1rem 0.5 0.5 0.5;
-
-
-    }
 
     .menu__container li {
         padding:0.5rem 0.5rem 1rem 0.5rem;
@@ -387,12 +381,12 @@ h3 {
         font-size: 2rem;;
     }
 
-    .menu__container a:hover {
+    /* .menu__container a:hover {
         text-decoration: none;
         color:var(--main-bg-color);
         background-color: var(--font-color);
         font-size: 2rem;
-    }
+    } */
     
     nav ul {
         list-style:none;
