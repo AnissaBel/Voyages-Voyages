@@ -624,8 +624,8 @@ h3 {
     }
 
     .gallery__container{
-        height: 90%;
-        padding-top: 3rem;
+        height: 100vh;
+        padding: 2rem 0;
     }
 
     .gallery__items {
