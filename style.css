@@ -616,6 +616,7 @@ h3 {
     .slide__container {
         display:flex;
         justify-content: revert;
+        height: 100vh;
     }
 
     .picture__container{
