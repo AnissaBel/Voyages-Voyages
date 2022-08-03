@@ -389,13 +389,6 @@ h3 {
         color:var(--font-color);
         font-size: 2rem;;
     }
-
-    /* .menu__container a:hover {
-        text-decoration: none;
-        color:var(--main-bg-color);
-        background-color: var(--font-color);
-        font-size: 2rem;
-    } */
     
     nav ul {
         list-style:none;
@@ -622,7 +615,7 @@ h3 {
     
     .button {
         position: absolute;
-        top: 38%;
+        top: 40%;
         left: 59%;
         width: 120px;
         height: 48px;
@@ -638,6 +631,10 @@ h3 {
 
     .picture__container{
         height: 42%;
+    }
+
+    .text__container {
+        height: 55%;
     }
 
     .gallery__container{
