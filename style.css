@@ -616,8 +616,7 @@ h3 {
 
     .number {
         font-size: 4rem;
-        position:relative;
-        top:85%;
+        margin-bottom:1rem;
         
     }
     
