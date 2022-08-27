@@ -178,6 +178,14 @@ ul a:hover{
 
 }
 
+#h2__nz {
+    width:50%;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    /* background-color: rgb(255, 255, 255); */
+    z-index:3;
+
+}
+
 
 h2 {
     font-size:800%;
