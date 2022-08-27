@@ -540,7 +540,7 @@ h3 {
 
     .gallery__items a {
         
-        background-color: red;
+        /* background-color: red; */
     }
 
     .gallery__items a img {
@@ -611,7 +611,7 @@ h3 {
     }
 
     .h2__container {
-        padding: 3rem 1rem 1rem 1rem;
+        padding: 2rem 1rem 1rem 1rem;
     }
     
 
